@@ -1,0 +1,195 @@
+/* cuerpo*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+
+/* inicio */
+
+header {
+    background-color: #050505;
+    color: white;
+    padding: 43px;
+    border: 3px solid #4224ad;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* MENÚ */
+
+nav {
+    background-color: #222222;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #14c2e0;
+}
+
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    padding: 30px;
+}
+
+
+/* secciones */
+
+section {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 25px;
+    border: 3px solid #14c2e0;
+}
+
+section h2 {
+    color: #4224ad;
+}
+
+
+/* productos */
+
+article {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #4224ad;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-producto {
+    flex: 1;
+    min-width: 0;
+}
+
+article img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+
+/* bottones */
+
+button {
+    background-color: #4224ad;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #14c2e0;
+}
+
+
+/* formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #999999;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+
+/* Sección de contacto */
+#contacto {
+    padding: 30px;
+}
+
+/* Formulario y redes sociales en horizontal */
+#contacto > form,
+#contacto > .redessocial {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+/* Formulario */
+#contacto form {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Campos del formulario */
+#contacto form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contacto form input,
+#contacto form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#contacto form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Redes sociales a la derecha */
+.redessocial {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* derechos */
+
+footer {
+    background-color: #050505;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
